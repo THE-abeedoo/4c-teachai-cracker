@@ -32,7 +32,7 @@ def start_registration():
         global stop_thread
         stop_thread = False
 
-        attempts = 8
+        attempts = 800
         attempt_count = 0
         # 思广还是漫思？
         class_type = int(class_type_var.get())
